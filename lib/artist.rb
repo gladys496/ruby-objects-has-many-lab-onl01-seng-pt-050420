@@ -9,8 +9,8 @@ class Artist
     @songs = []
   end
 
-def songs
-  songs << self 
+def songs(song)
+  song << self 
 end 
 
 end 
