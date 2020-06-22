@@ -16,9 +16,7 @@ def add_song(song)
     @@song_count += 1
   end
 
-def songs 
-every_song = self.count
-end 
+
 
   def add_song_by_name(name)
     song = Song.new(name)
