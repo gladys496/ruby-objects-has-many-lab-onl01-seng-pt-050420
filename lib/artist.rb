@@ -10,7 +10,7 @@ class Artist
   end
 
 def songs
-  @songs << self 
+  songs << self 
 end 
 
 end 
