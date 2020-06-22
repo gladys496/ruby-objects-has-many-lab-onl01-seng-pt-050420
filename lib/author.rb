@@ -15,7 +15,9 @@ class Author
     @@post_count += 1
   end
   
-  
+  def posts 
+    Post.all.select {|post| post.artist == self}
+  end 
 
   def add_post_by_title(title)
     post = Post.new(title)
