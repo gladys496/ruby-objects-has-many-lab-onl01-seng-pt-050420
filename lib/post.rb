@@ -19,8 +19,6 @@ end
     end
   end
   
-  def posts 
-    Post.all.select {|post| post.artist == self}
-  end 
+
   
 end
