@@ -26,7 +26,5 @@ class Author
     @@post_count
   end
   
-  def posts 
-    Post.all.select {|post| post.artist == self}
-  end 
+  
 end
